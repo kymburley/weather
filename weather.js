@@ -16,32 +16,35 @@ $(document).ready(function() {
                 var celsius = Math.round(((data.main.temp - 32) * (5/9)));
                 var location = data.name + " " + data.sys.country;
                 var weatherType = data.weather[0].description;
-                var convertTemp = true;
-                var timeOfDay = data.dt;
+                var isFahr = true;
+                var currentTime = data.dt;
                 var sunrise = data.sys.sunrise;
                 var sunset = data.sys.sunset;
-                console.log(location);
+                
+                console.log(data);
       
                 // Use daytime background-image between sunrise and sunset, then switch to nighttime background
-                if (timeOfDay <= sunset && timeOfDay >= sunrise) {        
-                    $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477418074/daysky_ybhqii.jpg)");
-                } else {
+                if (currentTime < sunrise && currentTime >= sunset) {
                     $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477280115/nightsky.jpg)");
+                } else {
+                    $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477418074/daysky_ybhqii.jpg)");
                 }
         
-                $(".temperature").html(temperature+"&#176; F");
+                $(".temperature").html(temperature+"&#176;F");
                 $(".cityState").html(location);
                 $(".skyCondition").html(weatherType);
 
         
                 // Convert F to C - C to F
-                $(".temperature").click(function(){
-                    if (convertTemp === false) {
-                        $(".temperature").html(temperature+"&#176; F");
-                        convertTemp = true;
+                $(".ForC").click(function(){
+                    if (isFahr === true) {
+                        $(".temperature").html(celsius+"&#176;C");
+                        //$(".ForC").html("C");
+                        isFahr = false;
                     } else {
-                        $(".temperature").html(celsius+"&#176; C");
-                        convertTemp = false;
+                        $(".temperature").html(temperature+"&#176;F");
+                      //  $(".ForC").html("F");
+                        isFahr = true;
                     }
                 });
     
