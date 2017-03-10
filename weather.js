@@ -33,18 +33,21 @@ $(document).ready(function() {
                 $(".temperature").html(temperature+"&#176;F");
                 $(".cityState").html(location);
                 $(".skyCondition").html(weatherType);
-
-        
-                // Convert F to C - C to F
+               
+                // Convert F to C
+                $(".CorF").click(function(){
+                   if (isFahr === true) {
+                       $(".temperature").html(celsius+"&#176;C");
+                       isFahr = false;
+                   } 
+                });
+                
+                // Convert C to F
                 $(".ForC").click(function(){
-                    if (isFahr === true) {
-                        $(".temperature").html(celsius+"&#176;C");
-                        //$(".ForC").html("C");
-                        isFahr = false;
-                    } else {
+                    if (isFahr === false) {
                         $(".temperature").html(temperature+"&#176;F");
-                      //  $(".ForC").html("F");
                         isFahr = true;
+                        
                     }
                 });
     
