@@ -5,7 +5,6 @@ html, body {
     font-family: 'Sansita', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
-    text-transform: capitalize;
     background-position: top center;
     background-size: inherit;
     background-repeat: no-repeat;
@@ -13,4 +12,5 @@ html, body {
 
 .heading {
     text-decoration: underline;
+    margin-top: 100px;
 }

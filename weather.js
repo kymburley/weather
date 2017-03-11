@@ -25,19 +25,19 @@ $(document).ready(function() {
                if (isDay) {
                     switch(weatherType){
                         case "Sunny":
-                            $("body").css("background-image","url(http://www.clipartkid.com/images/445/blue-sky-ash-s-machiavellian-bloggery-tHG5ib-clipart.jpg)");
+                            $("body").css("background-image","url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
                             break;
                         case "Partly Cloudy":
-                            $("body").css("background-image", "url(https://cdn.shutterstock.com/shutterstock/videos/9503816/thumb/1.jpg)");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)");
                             break;
                         case "Light rain":
-                            $("body").css("background-image", "url(https://cdn.shutterstock.com/shutterstock/videos/8387281/thumb/1.jpg");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg");
                             break;
                         case "Light snow":
                             $("body").css("background-image", "url(https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif");
                             break;
                         default:
-                            $("body").css("background-image", "url(http://www.clipartkid.com/images/445/blue-sky-ash-s-machiavellian-bloggery-tHG5ib-clipart.jpg)");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
                     }
                     
                 } else {
@@ -46,7 +46,7 @@ $(document).ready(function() {
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477280115/nightsky.jpg)");
                             break;
                         case "Overcast":
-                            $("body").css("background-image", "url(http://cdn2.bigcommerce.com/server4100/0b764/products/13207/images/10285/SR-0251__91973.1325295870.600.600.gif?c=2)");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
                             break;
                         default:
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477280115/nightsky.jpg)");
