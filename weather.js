@@ -25,7 +25,7 @@ $(document).ready(function() {
                if (isDay) {
                     switch(weatherType){
                         case "Sunny":
-                            $("body").css("background-image", "url(http://www.clipartkid.com/images/445/blue-sky-ash-s-machiavellian-bloggery-tHG5ib-clipart.jpg)");
+                            $("body").css("background-image","url(http://www.clipartkid.com/images/445/blue-sky-ash-s-machiavellian-bloggery-tHG5ib-clipart.jpg)");
                             break;
                         case "Partly Cloudy":
                             $("body").css("background-image", "url(https://cdn.shutterstock.com/shutterstock/videos/9503816/thumb/1.jpg)");
