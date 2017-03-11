@@ -43,7 +43,7 @@ $(document).ready(function() {
                 } else {
                     switch(weatherType) {
                         case "Clear":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477280115/nightsky.jpg)");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg");
                             break;
                         case "Overcast":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
