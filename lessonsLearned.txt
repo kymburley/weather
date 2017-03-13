@@ -1,0 +1,16 @@
+Lessons Learned making the Local Weather App.
+
+1. How to make a JSON request and how to get the data
+2. How to set up and use git, GitHub, and host on GitHub Pages
+3. How to use a 3rd party weather api in conjunction with geolocation
+4. To make sure EVERYTHING is https, because even though images show
+   on windows and android devices, they do NOT on iThingys if they are
+   not on https.
+5. It's important to make a lessons learned file, because it's impossible
+   to remember everything all the time.
+6. How to actually make everything responsive, so it looks good on my 
+   enormous computer screen and my itty bitty telephone screen.
+7. It takes a massive amount of time, sometimes, to find the api that
+   will work appropriately, when you don't know what you're looking for.
+8. Read forums to address #7
+9. Sometimes taking a LOOOONNNGGGG break can be useful.
