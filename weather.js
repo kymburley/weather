@@ -20,7 +20,7 @@ $(document).ready(function() {
                 var currentTime = data.location.localtime;
                 var hour = currentTime.substring(11,13);
                 var isDay = data.current.is_day;
-                 
+                console.log(weatherType); 
                 // Use daytime background-image between sunrise and sunset, then switch to nighttime background
                if (isDay) {
                     switch(weatherType){
@@ -32,6 +32,7 @@ $(document).ready(function() {
                             break;
                         case "Cloudy":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
+                            break;
                         case "Light rain":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
                             break;
