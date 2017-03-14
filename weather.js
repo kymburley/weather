@@ -30,11 +30,13 @@ $(document).ready(function() {
                         case "Partly Cloudy":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)");
                             break;
+                        case "Cloudy":
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                         case "Light rain":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
                             break;
                         case "Light snow":
-                            $("body").css("background-image", "url(https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif");
+                            $("body").css("background-image", "url(https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif)");
                             break;
                         default:
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
@@ -43,13 +45,13 @@ $(document).ready(function() {
                 } else {
                     switch(weatherType) {
                         case "Clear":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
                             break;
                         case "Overcast":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
                             break;
                         default:
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1477280115/nightsky.jpg)");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
                     }
                     
                 }
