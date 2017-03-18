@@ -27,7 +27,7 @@ $(document).ready(function() {
                         case "Sunny":
                             $("body").css("background-image","url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
                             break;
-                        case "Partly Cloudy":
+                        case "Partly cloudy":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)");
                             break;
                         case "Cloudy":
