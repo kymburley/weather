@@ -52,7 +52,10 @@ $(document).ready(function() {
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
                             break;
                         case "Cloudy":
-                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)", "background-position": "90% 5%"});
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
+                            break;
+                        case "Patchy rain possible":
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489861805/NightClouds_nhffjg.jpg)");
                             break;
                         default:
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
