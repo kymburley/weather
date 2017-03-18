@@ -6,6 +6,7 @@ html, body {
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 1px;
+    height: 100vh;
     
     background-repeat: no-repeat;
     background-position: center center;
