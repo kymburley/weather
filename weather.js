@@ -51,8 +51,8 @@ $(document).ready(function() {
                         case "Clear":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
                             break;
-                        case "Overcast":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
+                        case "Cloudy":
+                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)", "background-position": "90% 5%"});
                             break;
                         default:
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
