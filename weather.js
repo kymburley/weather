@@ -33,6 +33,9 @@ $(document).ready(function() {
                         case "Cloudy":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                             break;
+                        case "Patchy rain possible":
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
+                            break;
                         case "Light rain":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
                             break;
