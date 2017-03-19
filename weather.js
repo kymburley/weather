@@ -31,6 +31,7 @@ $(document).ready(function() {
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)");
                             break;
                         case "Cloudy":
+                        case "Overcast":
                         case "Patchy rain possible":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                             break;
