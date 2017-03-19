@@ -36,6 +36,9 @@ $(document).ready(function() {
                         case "Patchy rain possible":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                             break;
+                        case "Light drizzle":
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
+                            break;
                         case "Light rain":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
                             break;
@@ -50,6 +53,9 @@ $(document).ready(function() {
                     switch(weatherType) {
                         case "Clear":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
+                            break;
+                        case "Partly cloudy":
+                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1489863920/darkCloudySky_zwdes3.jpg)", "background-position": "15% 50%"});
                             break;
                         case "Cloudy":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250960/cloudy_sky_paryp9.jpg)");
