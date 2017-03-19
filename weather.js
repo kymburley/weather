@@ -40,6 +40,7 @@ $(document).ready(function() {
                             break;
                         case "Light rain":
                         case "Light drizzle":
+                        case "Light rain shower":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
                             break;
                         case "Light snow":
