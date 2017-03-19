@@ -35,9 +35,6 @@ $(document).ready(function() {
                         case "Patchy rain possible":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                             break;
-                        case "Light drizzle":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250684/light-rain-139977_1920_pl8yo6.jpg)");
-                            break;
                         case "Light rain":
                         case "Light drizzle":
                         case "Light rain shower":
