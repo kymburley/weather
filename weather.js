@@ -28,7 +28,7 @@ $(document).ready(function() {
                             $("body").css("background-image","url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
                             break;
                         case "Partly cloudy":
-                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)");
+                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)", "color": "#000"});
                             break;
                         case "Cloudy":
                         case "Overcast":
