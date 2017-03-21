@@ -36,7 +36,7 @@ $(document).ready(function() {
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
                             break;
                         case "Mist":
-                            $("body").css("background-image", "https://res.cloudinary.com/kymburley/image/upload/v1490084645/mist_k5cvcd.jpg");
+                            $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1490084645/mist_k5cvcd.jpg)");
                             break;
                         case "Light rain":
                         case "Light drizzle":
