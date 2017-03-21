@@ -28,12 +28,15 @@ $(document).ready(function() {
                             $("body").css("background-image","url(https://res.cloudinary.com/kymburley/image/upload/v1489250380/clear_sunny_sky_dyjltj.jpg)");
                             break;
                         case "Partly cloudy":
-                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1489250542/Partly_cloudy_sky_msbsze.jpg)", "color": "#000"});
+                            $("body").css({"background-image": "url(https://res.cloudinary.com/kymburley/image/upload/v1477418074/daysky_ybhqii.jpg)", "color": "#000"});
                             break;
                         case "Cloudy":
                         case "Overcast":
                         case "Patchy rain possible":
                             $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489502562/CloudySkies_tyqigl.jpg)");
+                            break;
+                        case "Mist":
+                            $("body").css("background-image", "https://res.cloudinary.com/kymburley/image/upload/v1490084645/mist_k5cvcd.jpg");
                             break;
                         case "Light rain":
                         case "Light drizzle":
