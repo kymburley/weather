@@ -1,22 +1,22 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    height: 100vh;
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  height: 100vh;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .heading {
-    text-decoration: underline;
-    margin-top: 100px;
+  text-decoration: underline;
+  margin-top: 100px;
 }
