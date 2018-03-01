@@ -46,6 +46,9 @@ $(document).ready(function() {
             case "Moderate or heavy rain shower":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1491394963/heavyrain_nrgau6.jpg)");
               break;
+            case "Freezing drizzle":
+              $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519894611/sleet.jpg)");
+              break;
             case "Light snow":
               $("body").css("background-image", "url(https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif)");
               break;
@@ -65,6 +68,9 @@ $(document).ready(function() {
               break;
             case "Patchy rain possible":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489861805/NightClouds_nhffjg.jpg)");
+              break;
+            case "Light rain"
+              $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519924078/rain-744562_1920_vz3hw5.jpg)");
               break;
             default:
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
