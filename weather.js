@@ -46,6 +46,9 @@ $(document).ready(function() {
             case "Moderate or heavy rain shower":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1491394963/heavyrain_nrgau6.jpg)");
               break;
+            case "Freezing drizzle":
+              $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519894611/sleet.jpg)");
+              break;
             case "Light snow":
               $("body").css("background-image", "url(https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif)");
               break;
