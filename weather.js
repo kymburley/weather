@@ -69,7 +69,7 @@ $(document).ready(function() {
             case "Patchy rain possible":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489861805/NightClouds_nhffjg.jpg)");
               break;
-            case "Light rain"
+            case "Light rain":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519924078/rain-744562_1920_vz3hw5.jpg)");
               break;
             default:
