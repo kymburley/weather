@@ -72,6 +72,9 @@ $(document).ready(function() {
             case "Light rain":
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519924078/rain-744562_1920_vz3hw5.jpg)");
               break;
+            case "Moderate rain":
+              $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1519927732/mod-rain-night.jpg)");
+              break;
             default:
               $("body").css("background-image", "url(https://res.cloudinary.com/kymburley/image/upload/v1489258813/Clear_Night_Sky_lz72uk.jpg)");
           }
